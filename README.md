@@ -1,4 +1,4 @@
-# Nobita Skill Collection
+# Nobita Skills
 
 > 这里收集了我日常使用 Claude Code 时开发的各类 Skill。
 
@@ -29,9 +29,18 @@
 
 这些 Skill 是为 [Claude Code](https://claude.com/claude-code) 设计的。使用方式：
 
-1. 在 Claude Code 中打开本仓库
-2. 根据各 Skill 的触发词或描述直接调用
-3. Claude 会自动识别并执行相应的 Skill
+**安装方式：**
+
+```bash
+# 1. 克隆本仓库
+git clone https://github.com/NobitaYuan/nobita-skills.git
+
+# 2. 复制需要的 Skill 到你的项目
+cp -r nobita-skills/Draw.io图表生成 你的项目/.claude/skills/
+```
+
+**使用方式：**
+- Claude 会自动识别并加载已安装的 Skill
 
 ## 📝 贡献
 
