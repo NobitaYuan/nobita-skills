@@ -23,6 +23,19 @@
 - 自动布局与配色
 - 一键导入 draw.io 编辑
 
+### [Git 提交](./git-commit/)
+
+智能生成结构化 commit message 并提交代码。
+
+**使用方式：** `/git-commit` 或说"提交代码"、"commit"、"提交一下"
+
+**特色功能：**
+- 自动分析变更内容，生成三段式 commit message（概述 + 文件树 + 详细说明）
+- 从 git log 学习项目的类型前缀和分隔符风格
+- 敏感文件检测（.env、密钥、凭证等自动拦截）
+- 提交前确认，提交后询问是否推送
+- 支持中文/英文，自动匹配项目语言
+
 ---
 
 ## 🚀 如何使用
@@ -37,6 +50,7 @@ git clone https://github.com/NobitaYuan/nobita-skills.git
 
 # 2. 复制需要的 Skill 到你的项目
 cp -r nobita-skills/Draw.io图表生成 你的项目/.claude/skills/
+cp -r nobita-skills/git-commit 你的项目/.claude/skills/
 ```
 
 **使用方式：**
